@@ -88,4 +88,12 @@ dependencies {
     implementation("io.ktor:ktor-client-android:2.3.5")
     implementation("com.google.code.gson:gson:2.10.1")
     // ===================================================
+
+    // Testing
+    testImplementation(libs.junit)
+    androidTestImplementation(libs.androidx.junit)
+    androidTestImplementation(libs.androidx.espresso.core)
+    androidTestImplementation(platform(libs.androidx.compose.bom))
+    androidTestImplementation(libs.androidx.ui.test.junit4)
+    debugImplementation(libs.androidx.ui.test.manifest)
 }
