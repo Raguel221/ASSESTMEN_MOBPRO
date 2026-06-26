@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Menggunakan Theme.AppCompat.Light.NoActionBar sebagai parent agar tidak
+        bergantung pada Material3 XML theme (Compose tidak membutuhkan XML theme Material3).
+        Style Material3 dihandle sepenuhnya oleh Jetpack Compose / MyApplicationTheme.
+    -->
+    <style name="Theme.MyApplication" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>
