@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Bible Verse</string>
-
-    <!--
-        IMPORTANT: Replace this with your actual Web Client ID from the Google Cloud Console.
-        Find it at: Firebase Console → Authentication → Sign-in method → Google → Web SDK configuration → Web client ID
-        It usually looks like: 123456789012-abcdefghijklmnopqrstuvwxyz123456.apps.googleusercontent.com
-        This value is also present in your google-services.json under "oauth_client" → type 3 → "client_id"
-    -->
     <string name="default_web_client_id">624326754490-pfv4raa7mk6nq4aek8sl8pt201q5mrds.apps.googleusercontent.com</string>
+    <string name="tampilan_list">Tampilan list</string>
+    <string name="tampilan_grid">Tampilan grid</string>
 </resources>
